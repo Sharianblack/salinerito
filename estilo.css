@@ -15,9 +15,8 @@ header {
     text-align: center;
 }
 
-header img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
-    width: 100%;
-    max-width: 200px;
+header img {  /Controla el ancho máximo que un elemento puede ocupar en la pantalla./
+    width: 1108px;
     height: auto;
     margin-top: 15px;
 }
@@ -32,7 +31,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
- /*con display: inline;, se especifica que debe comportarse como un elemento en línea.*/
+ /con display: inline;, se especifica que debe comportarse como un elemento en línea./
 nav ul li {
     display: inline;
     margin-right: 15px;
