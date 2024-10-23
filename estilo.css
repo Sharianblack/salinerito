@@ -1,3 +1,5 @@
+/*Letra importada de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Sketch&display=swap');
 /* aplicado para toda la pagina principal del salinerito*/
 
 body { /*  font-family Explicación: Establece una lista de fuentes, padding controla el espacio entre el contenido del elemento y su borde. */
@@ -9,20 +11,20 @@ body { /*  font-family Explicación: Establece una lista de fuentes, padding con
 }
 
 header {
-    background-color: #5a2c21;
+    background-color: #5e2129;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-header img {  /Controla el ancho máximo que un elemento puede ocupar en la pantalla./
-    width: 1108px;
+header img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
+    width: 980px;
     height: auto;
     margin-top: 15px;
 }
 
 nav {
-    background-color: #3e1e14;
+    background-color:black;
     text-align: center;
 }
 
@@ -31,7 +33,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
- /con display: inline;, se especifica que debe comportarse como un elemento en línea./
+ /*con display: inline;, se especifica que debe comportarse como un elemento en línea.*/
 nav ul li {
     display: inline;
     margin-right: 15px;
@@ -54,15 +56,22 @@ section {
 }
 
 section h2 {
-    color: #5a2c21;
+    color: #5e2129;
 }
 
 footer {
-    background-color: #3e1e14;
+    background-color:black;
     color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+
+}
+h2, 
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

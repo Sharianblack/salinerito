@@ -1,5 +1,9 @@
+/*Letra importada de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Sketch&display=swap');
 /* aplicado para toda la pagina del catalogo del salinerito*/
-
+body{
+    background-color: #5e2129;
+}
 #catalogo {
     display: flex;
     justify-content: space-around;
@@ -31,14 +35,41 @@
 }
 
 .producto button { /*cursor: cambia el estilo del cursor del mouse cuando este pasa sobre un elemento en una página web.*/
-    background-color: #5a2c21;
+    background-color: #5e2129;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
 }
-
+h1,
+h3,
+h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    color: black;
+}
 .producto button:hover {
-    background-color: #3e1e14;
+    background-color: #5e2129;
+}
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+img{
+    border: 5px solid black;
+}
+h4,
+h1{
+    color: white;
 }
